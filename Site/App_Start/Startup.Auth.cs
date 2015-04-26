@@ -54,15 +54,15 @@ namespace Site
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1385055835155980",
+               appSecret: "ed396f494ed9b1e2fa87c8710ed7e2f0");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "147909334421-9ltf4h2502232oqg059408ttu134r0lk.apps.googleusercontent.com",
+                ClientSecret = "KYgE3o0fnY2TL-QETkwJti2P"
+            });
         }
     }
 }
